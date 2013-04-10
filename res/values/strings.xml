@@ -4,5 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="menu_provider">供货商管理</string>
+    <string name="menu_store">库存商管理</string>
+    <string name="menu_print">打印</string>
 
 </resources>

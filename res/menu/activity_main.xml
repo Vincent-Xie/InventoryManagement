@@ -1,5 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/menu_settings"
-        android:title="@string/menu_settings"
-        android:orderInCategory="100" />
+    <item android:id="@+id/menu_provider"
+        android:title="@string/menu_provider"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/menu_store" 
+        android:title="@string/menu_store" 
+        android:orderInCategory="200"></item>
+    <item android:id="@+id/menu_print" 
+        android:title="@string/menu_print" 
+        android:orderInCategory="300"></item>
 </menu>
