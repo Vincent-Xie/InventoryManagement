@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // sqlite数据库创建和操作
-        SQLiteDatabase db = openOrCreateDatabase("test.db", Context.MODE_PRIVATE, null);
+        SQLiteDatabase db = openOrCreateDatabase("store.db", Context.MODE_PRIVATE, null);
 
     }
 
