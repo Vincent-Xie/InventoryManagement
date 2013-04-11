@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -27,7 +28,7 @@ public class MainActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // TODO Auto-generated method stub
         switch(item.getItemId()){
-            case R.id.editProvider:
+            case R.id.menu_provider:
                 Intent intent = new Intent(this, ProviderActivity.class);
                 intent.putExtra(EXTRA_MESSAGE, item.getTitle());
                 startActivity(intent);
